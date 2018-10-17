@@ -30,6 +30,7 @@
 		2076FEF72170B18D00278FA2 /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076FEF62170B18D00278FA2 /* Article.swift */; };
 		2076FEF92170B23800278FA2 /* ArticleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076FEF82170B23800278FA2 /* ArticleTests.swift */; };
 		2076FEFB2170B50700278FA2 /* Articles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2076FEFA2170B50700278FA2 /* Articles.swift */; };
+		20847CFB2177F6BA00A0B5BB /* IQKeyboardManagerSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20847CFA2177F6BA00A0B5BB /* IQKeyboardManagerSwift.framework */; };
 		2090550C217511D900DBF2C7 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2090550B217511D900DBF2C7 /* SnapKit.framework */; };
 		2090550E2175162D00DBF2C7 /* NewsListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090550D2175162D00DBF2C7 /* NewsListViewModel.swift */; };
 		2090551021751CAA00DBF2C7 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2090550F21751CAA00DBF2C7 /* NewsCell.swift */; };
@@ -86,6 +87,7 @@
 		2076FEF62170B18D00278FA2 /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		2076FEF82170B23800278FA2 /* ArticleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleTests.swift; sourceTree = "<group>"; };
 		2076FEFA2170B50700278FA2 /* Articles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Articles.swift; sourceTree = "<group>"; };
+		20847CFA2177F6BA00A0B5BB /* IQKeyboardManagerSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IQKeyboardManagerSwift.framework; path = Carthage/Build/iOS/IQKeyboardManagerSwift.framework; sourceTree = "<group>"; };
 		2090550B217511D900DBF2C7 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
 		2090550D2175162D00DBF2C7 /* NewsListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModel.swift; sourceTree = "<group>"; };
 		2090550F21751CAA00DBF2C7 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20847CFB2177F6BA00A0B5BB /* IQKeyboardManagerSwift.framework in Frameworks */,
 				209055212175F46C00DBF2C7 /* Action.framework in Frameworks */,
 				209055222175F46C00DBF2C7 /* FontAwesome.framework in Frameworks */,
 				2090550C217511D900DBF2C7 /* SnapKit.framework in Frameworks */,
@@ -164,6 +167,7 @@
 		20637C242170F49C0088F2BB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				20847CFA2177F6BA00A0B5BB /* IQKeyboardManagerSwift.framework */,
 				2090551F2175F46C00DBF2C7 /* Action.framework */,
 				209055202175F46C00DBF2C7 /* FontAwesome.framework */,
 				2090550B217511D900DBF2C7 /* SnapKit.framework */,
@@ -487,6 +491,7 @@
 				"$(SRCROOT)/Carthage/Build/iOS/SnapKit.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/Action.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/FontAwesome.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/IQKeyboardManagerSwift.framework",
 			);
 			name = Carthage;
 			outputFileListPaths = (
