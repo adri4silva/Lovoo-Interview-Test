@@ -1,4 +1,5 @@
-# iOS take home test
+# iOS take home test
+
 Your task is to write an iOS native app which shows a list of top headline articles from different countries and categories. ( https://newsapi.org/ )
 
 The user should be able to filter the articles by country, category and date. When he/she clicks on an article, it should open in a new view and display it’s content. 
@@ -16,4 +17,11 @@ Your focus in general should be on a good app architecture, so keep in mind scal
 When you think it's ready for prime time, push your work to a public repo on Bitbucket or Github and send us a link.
 
 Good luck!
+
+# Things to improve
+
+## Scroll performance
+ - Cache cell images
+ - Load images in operation queues
+ - Add persistency
 
