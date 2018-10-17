@@ -27,7 +27,7 @@ Good luck!
  
  ## Date 
  
- - Date is not querable on `top-headlines` (api)[https://newsapi.org/docs/endpoints/top-headlines]
+ - Date is not querable on `top-headlines` [api](https://newsapi.org/docs/endpoints/top-headlines)
 
 ## Tests
 
