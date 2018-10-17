@@ -24,4 +24,11 @@ Good luck!
  - Cache cell images
  - Load images in operation queues
  - Add persistency
+ 
+ ## Date 
+ 
+ - Date is not querable on `top-headlines` (api)[https://newsapi.org/docs/endpoints/top-headlines]
 
+## Tests
+
+- Currently the app has no tests
